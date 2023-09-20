@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "name": "Rohan",
+      "email": "rohanpreet@gmail.com",
+      "gender": "male",
+      "profile": "Rapstar",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "name": "Amit",
+      "email": "amit321@gmail.com",
+      "gender": "male",
+      "profile": "Designer"
+    },
+    {
+      "id": 4,
+      "name": "Harry",
+      "email": "harry@gmail.com",
+      "gender": "male",
+      "profile": "Full Stack Dev"
+    },
+    {
+      "name": "Druva",
+      "email": "Druv@druva.com",
+      "gender": "male",
+      "profile": "Dev",
+      "id": 6
+    },
+    {
+      "name": "Manoj Sir",
+      "email": "manojsir@007gmail.com",
+      "gender": "male",
+      "profile": "Full Stack Dev",
+      "id": 11
+    },
+    {
+      "name": "Sourav Joshi",
+      "email": "sourab@gmail.com",
+      "gender": "male",
+      "profile": "Yt Vlogger",
+      "id": 14
+    },
+    {
+      "name": "Rubina",
+      "email": "Rubina Devi",
+      "gender": "female",
+      "profile": "Trainner",
+      "id": 15
+    },
+    {
+      "name": "Roshni Soni",
+      "email": "roshnisoniqgi@gmail.com",
+      "gender": "female",
+      "profile": "Director",
+      "id": 16
+    },
+    {
+      "name": "Mukul",
+      "email": "muku@345gmail.com",
+      "gender": "male",
+      "profile": "Accountant",
+      "id": 21
+    },
+    {
+      "name": "Muskan",
+      "email": "muskan@musk.com",
+      "gender": "female",
+      "profile": "H.R",
+      "id": 22
+    },
+    {
+      "name": "Palvi Verma",
+      "email": "paluits@321gmail.com",
+      "gender": "female",
+      "profile": "Superviser",
+      "id": 23
+    },
+    {
+      "name": "Ravi Sumbria",
+      "email": "ravikumarsumbria@gmail.com",
+      "gender": "male",
+      "profile": "Angular",
+      "id": 24
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "email": "mokush2911@gmale.com",
+      "gender": "male",
+      "profile": "FrontEnd",
+      "id": 25
+    },
+    {
+      "name": "Supriya Sharma",
+      "email": "supriya@321gmail.com",
+      "gender": "female",
+      "profile": "C.A",
+      "id": 26
+    },
+    {
+      "name": "Pratkisha Rajput",
+      "email": "pariraj2001@gmail.com",
+      "gender": "female",
+      "profile": "Designer",
+      "id": 27
+    }
+  ]
+}

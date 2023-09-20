@@ -1,0 +1,43 @@
+
+
+<div class="container">
+  <div class="mb-3 ">
+    <label for="search" class="form-label"><strong>Search By Name</strong></label>
+    <input type="search" class="form-control" id="search" aria-describedby="emailHelp" [(ngModel)]="searchName">
+  </div>
+<table class="table">
+    <thead class="table-success">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Profile</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        
+      <tr *ngFor="let item of users | serach:searchName">
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.gender}}</td>
+        <td>{{item.profile}}</td>
+        <td>
+            <!-- <a class="btn btn-success" routerLink="/edit/{{item.id}}">Edit</a> | -->
+            <a class="btn btn-success" [routerLink]="['/edit',item.id]">Edit</a> |
+            <button type="button" class="btn btn-danger" (click)="deleteDetails(item.id)">
+              <i class="fa fa-trash-o fa-lg"></i> Delete
+              <!-- <fa-icon [icon]="faTrash">Del</fa-icon> -->
+            </button>
+          </td>
+      </tr>
+    </tbody>
+  </table>
+        <div class="row mt-2">
+            <div class="col-md-4 offset-md-9 mr-8">
+                <a class="btn btn-success" routerLink="/add">Create A New Item</a>
+            </div>
+        </div>
+</div>
